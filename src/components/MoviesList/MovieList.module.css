@@ -1,0 +1,36 @@
+.movlist__title {
+  margin-top: 20px;
+  margin-left: 100px;
+  font-size: 35px;
+  color: rgb(64, 63, 153);
+}
+
+.movlist__list {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.movlist__item {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.3);
+  transform: scale(1);
+}
+
+.movlist__item:hover,
+.movlist__item:focus {
+  transform: scale(1.03);
+}
+.film__name {
+  display: inline-block;
+  height: 40px;
+  padding: 8px;
+  font-size: 16px;
+  color: rgb(97, 60, 199);
+}

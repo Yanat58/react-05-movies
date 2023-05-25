@@ -1,0 +1,36 @@
+header {
+  border-bottom: 1px solid #ececec;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+
+  background: linear-gradient(53deg, #dae2f8, #d6a4a4);
+
+  /* background: radial-gradient(
+    circle 610px at 5.2% 51.6%,
+    rgba(131, 178, 240, 0.767) 35%,
+    rgba(238, 238, 253, 0.699) 65%
+  ); */
+}
+
+.nav__list {
+  display: flex;
+  margin-left: 50px;
+}
+
+.NavLink.active {
+  color: rgb(136, 48, 48);
+}
+
+.logo__img {
+  margin-left: 80px;
+}
+
+.nav__item {
+  margin-right: 40px;
+  font-weight: 500;
+  font-size: 24px;
+  color: rgb(18, 84, 206);
+}
